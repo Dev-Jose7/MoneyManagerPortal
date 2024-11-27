@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoneyManager | Portal</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+    <link rel="manifest" href="/icon/site.webmanifest">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Money<span>Manager</span></h1>
+            <p>Elige una de las versiones de nuestro gestor de ingresos y gastos.</p>
+        </header>
+
+        <section class="summary">
+            <a href="https://moneymanager-offline.netlify.app" target="_blank">
+                <h2><p>Money<span>Manager</span></p> Offline</h2>
+                <h4>Para Metodologías Ágiles</h4>
+            </a>
+            <a href="https://moneymanager-online.netlify.app" target="_blank">
+                <h2><p>Money<span>Manager</span></p> Online</h2>
+                <h4>Para Backend I</h4>
+            </a>
+        </section>
+
+        <!-- Modal -->
+        <div id="editModal" class="modal">
+            <div class="modal-content">
+                <h3>Usuarios de prueba</h3>
+                <div class="modal-user">
+                    <div class="modal-user-title">
+                        <button id="buttonOffline" class="selection-title"><p>Money<span>Manager</span></p> Offline</button>
+                    <button id="buttonOnline"><p>Money<span>Manager</span></p> Online</button>
+                    </div>
+                    <div class="table-container">
+                            
+                    </div>
+                </div>
+                <div class="modal-btn">
+                    <button type="reset" class="btn-cancel cancelar">Cerrar</button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <button class="btn-add">Usuarios de prueba</button>
+        </footer>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
